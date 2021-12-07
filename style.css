@@ -104,6 +104,12 @@ img {
   justify-content: space-between;
 }
 
+.project {
+  background-color: var(--clr-gray6);
+  border-radius: 18px;
+  padding: 2rem;
+}
+
 /* .project {
   display: flex;
   align-items: center;
