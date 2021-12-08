@@ -8,7 +8,10 @@
   maximum-scale=5"
     />
 
-    <link rel="icon" href="Images/devchallenges.png" /> 
+    <link rel="icon" href="Images/devchallenges.png" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css">
 
@@ -16,7 +19,7 @@
 
   </head>
   <body>
-    <section class="profile flow-content">
+    <section class="profile flow-content-y flow-content-x">
       <div>
         <img src="Images/profilepicture.png" alt="profilepicture" title="profilePicture">
       </div>
@@ -41,108 +44,171 @@
         </div>
       </div>
     </section>
-    <section class="skills">
-      <h2>Skills</h2>
-      <div class="skills-ctn">
+    <div class="section-ctn">
+      <section class="skills">
+        <h2>Skills</h2>
+        <div class="skills-ctn">
+          <div class="skill">
+            <h3>Front-End</h3>
+            <ul>
+              <li>HTLM/CSS</li>
+              <li>Javascript</li>
+              <li>Bootstrap</li>
+              <li>SASS</li>
+              <li>EJS</li>
+            </ul>
+          </div>
+          <div class="skill">
+            <h3>Back-End</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
         <div class="skill">
-          <h3>Front-End</h3>
-          <ul>
-            <li>HTLM/CSS</li>
-            <li>Javascript</li>
-            <li>Bootstrap</li>
-            <li>SASS</li>
-            <li>EJS</li>
-          </ul>
+          <h3>Other</h3>
+        <ul>
+          <li>WordPress</li>
+          <li>Figma</li>
+        </ul>
         </div>
-        <div class="skill">
-          <h3>Back-End</h3>
-          <ul>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>MongoDB</li>
-          </ul>
         </div>
-      <div class="skill">
-        <h3>Other</h3>
-      <ul>
-        <li>WordPress</li>
-        <li>Figma</li>
-      </ul>
-      </div>
-      </div>
-    </section>
-    <section class="flow-content">
-      <h2>Hobbies</h2>
-      <div class="hobbie flow-content">
-        <img src="Images/gaming.jpg" alt="Gaming" title="Photo by Alexey Savchenko on Unsplash">
-        <h3>Gaming</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facere quis voluptatibus, impedit, eveniet excepturi at vero non repudiandae eligendi natus veniam nulla obcaecati consequuntur eos dolorum reprehenderit fugiat ducimus?</p>
-      </div>
-      <div class="hobbie flow-content">
-        <img src="Images/gym.jpg" alt="Gym" title="Photo by Victor Freitas on Unsplash">
-        <h3>Gym</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facere quis voluptatibus, impedit, eveniet excepturi at vero non repudiandae eligendi natus veniam nulla obcaecati consequuntur eos dolorum reprehenderit fugiat ducimus?</p>
-      </div>
-      <div class="hobbie flow-content">
-        <img src="Images/camping.jpg" alt="Camping" title="Photo by Scott Goodwill on Unsplash">
-        <h3>Camping</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facere quis voluptatibus, impedit, eveniet excepturi at vero non repudiandae eligendi natus veniam nulla obcaecati consequuntur eos dolorum reprehenderit fugiat ducimus?</p>
-      </div>
-    </section>
+      </section>
+      <section class="certificates flow-content">
+        <h2>Certificates</h2>
+        <div id="carouselExampleControls" class="carousel slide custom" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Images/WebDev2021.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/IntermediateJS.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/nodejs.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Expressjs.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/express2 .png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/CommandLine.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/JQuery.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/sass.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </div>
     <section class="projects flow-content">
       <h2>Projects</h2>
-      <div class="project flow-content">
-        <div>
-          <img src="Images/Edie.png" alt="Edie Project">
+      <div class="projects-ctn flow-content-y">
+        <div class="project project1">
+          <a href="" class="flow-content">
+            <div>
+              <img src="Images/Edie.png" alt="Edie Project">
+            </div>
+            <div class="flow-content">
+              <h3>Edie Homepage</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil dolor eius architecto distinctio ducimus. A dolor eum cum corrupti, nulla deserunt. Provident non doloribus necessitatibus impedit nesciunt repellendus perferendis.</p>
+              <p>See the project -></p>
+            </div>
+          </a>
         </div>
-        <div class="flow-content">
-          <h3>Edie Homepage</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil dolor eius architecto distinctio ducimus. A dolor eum cum corrupti, nulla deserunt. Provident non doloribus necessitatibus impedit nesciunt repellendus perferendis.</p>
+        <div class="project project2">
+          <a href="" class="flow-content">
+            <div>
+              <img src="Images/checkout.png" alt="Checkout Project">
+            </div>
+            <div class="flow-content">
+              <h3>Checkout Page</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero corporis asperiores iste beatae sunt sint reiciendis sit repellendus impedit quo delectus nostrum accusamus facilis maiores qui tempora, repellat culpa dolores.</p>
+              <p>See the project -></p>
+            </div>
+          </a>
+        </div>
+        <div class="project project3">
+          <a href="" class="flow-content">
+            <div>
+              <img src="Images/gallery.png" alt="Gallery Project">
+            </div>
+            <div class="flow-content">
+              <h3>My Gallery</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur facere harum laudantium perspiciatis, porro delectus esse eligendi velit. Rem enim soluta libero, et vel earum corrupti ipsa eius fuga odit!</p>
+            <p>See the project -></p>
+            </div>
+          </a>
+        </div>
+      <div class="project project4">
+          <a href="" class="flow-content">
+            <div>
+              <img src="Images/recipe.png" alt="Recipe Project">
+            </div>
+            <div class="flow-content">
+              <h3>Recipe Page</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam officia, ex aut ratione non similique harum iste porro ea laboriosam! Rerum maxime repellendus deserunt modi laborum, suscipit placeat sint iusto!</p>
+              <p>See the project -></p>
+            </div>
+          </a>
+        </div>
+        <div class="project project5">
+          <a href="" class="flow-content">
+            <div>
+              <img src="Images/Interior.png" alt="Interior Project">
+            </div>
+            <div class="flow-content" >
+              <h3>Interior Consultant</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, nisi! Expedita facilis fugiat nemo, quae sit consequuntur ab quaerat eligendi illo officia ratione neque tempore delectus commodi aut error atque.</p>
+              <p>See the project -></p>
+            </div>
+          </a>
+        </div>
+        <div class="project project6">
+          <a href="" class="flow-content">
+            <div>
+              <img src="Images/myteam.png" alt="My Team Project">
+            </div>
+            <div class="flow-content">
+              <h3>My Team Page</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam quis labore reprehenderit itaque animi blanditiis, deleniti saepe ea at veniam debitis quod inventore assumenda laborum quos soluta illo aliquid dolores.</p>
+              <p>See the project -></p>
+            </div>
+          </a>
         </div>
       </div>
-      <div class="project flow-content">
-        <div>
-          <img src="Images/checkout.png" alt="Checkout Project">
+    </section>
+    <section class="hobbies flow-content">
+      <h2>Hobbies</h2>
+      <div class="hobbies-ctn flow-content-y flow-content-x">
+        <div class="hobbie flow-content">
+          <img src="Images/gaming.jpg" alt="Gaming" title="Photo by Alexey Savchenko on Unsplash">
+          <h3>Gaming</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facere quis voluptatibus, impedit, eveniet excepturi at vero non repudiandae eligendi natus veniam nulla obcaecati consequuntur eos dolorum reprehenderit fugiat ducimus?</p>
         </div>
-        <div class="flow-content">
-          <h3>Checkout Page</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero corporis asperiores iste beatae sunt sint reiciendis sit repellendus impedit quo delectus nostrum accusamus facilis maiores qui tempora, repellat culpa dolores.</p>
+        <div class="hobbie flow-content">
+          <img src="Images/gym.jpg" alt="Gym" title="Photo by Victor Freitas on Unsplash">
+          <h3>Gym</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facere quis voluptatibus, impedit, eveniet excepturi at vero non repudiandae eligendi natus veniam nulla obcaecati consequuntur eos dolorum reprehenderit fugiat ducimus?</p>
         </div>
-      </div>
-      <div class="project flow-content">
-        <div>
-          <img src="Images/gallery.png" alt="Gallery Project">
-        </div>
-        <div class="flow-content">
-          <h3>My Gallery</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur facere harum laudantium perspiciatis, porro delectus esse eligendi velit. Rem enim soluta libero, et vel earum corrupti ipsa eius fuga odit!</p>
-        </div>
-      </div>
-      <div class="project flow-content">
-        <div>
-          <img src="Images/recipe.png" alt="Recipe Project">
-        </div>
-        <div class="flow-content">
-          <h3>Recipe Page</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam officia, ex aut ratione non similique harum iste porro ea laboriosam! Rerum maxime repellendus deserunt modi laborum, suscipit placeat sint iusto!</p>
-        </div>
-      </div>
-      <div class="project flow-content">
-        <div>
-          <img src="Images/Interior.png" alt="Interior Project">
-        </div>
-        <div class="flow-content" >
-          <h3>Interior Consultant</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, nisi! Expedita facilis fugiat nemo, quae sit consequuntur ab quaerat eligendi illo officia ratione neque tempore delectus commodi aut error atque.</p>
-        </div>
-      </div>
-      <div class="project flow-content">
-        <div>
-          <img src="Images/myteam.png" alt="My Team Project">
-        </div>
-        <div class="flow-content">
-          <h3>My Team Page</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam quis labore reprehenderit itaque animi blanditiis, deleniti saepe ea at veniam debitis quod inventore assumenda laborum quos soluta illo aliquid dolores.</p>
+        <div class="hobbie flow-content">
+          <img src="Images/camping.jpg" alt="Camping" title="Photo by Scott Goodwill on Unsplash">
+          <h3>Camping</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facere quis voluptatibus, impedit, eveniet excepturi at vero non repudiandae eligendi natus veniam nulla obcaecati consequuntur eos dolorum reprehenderit fugiat ducimus?</p>
         </div>
       </div>
     </section>
