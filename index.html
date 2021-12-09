@@ -27,7 +27,24 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <section class="profile flow-content-y flow-content-x">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light"  style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="#profile">Profile</a>
+                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#certificates">Certificates</a>
+                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#hobbies">Hobbies</a>
+              </div>
+            </div>
+          </div>
+      </nav>
+    <section class="profile flow-content-y flow-content-x" id="profile">
       <div>
         <img
           src="Images/profilepicture.png"
@@ -59,7 +76,7 @@
       </div>
     </section>
     <div class="section-ctn">
-      <section class="skills">
+      <section class="skills flow-content" id="skills">
         <h2>Skills</h2>
         <div class="skills-ctn">
           <div class="skill">
@@ -89,7 +106,7 @@
           </div>
         </div>
       </section>
-      <section class="certificates flow-content">
+      <section class="certificates flow-content" id="certificates">
         <h2>Certificates</h2>
         <div
           id="carouselExampleControls"
@@ -155,7 +172,7 @@
         </div>
       </section>
     </div>
-    <section class="projects flow-content">
+    <section class="projects flow-content" id="projects">
       <h2>Projects</h2>
       <div class="projects-ctn flow-content-y">
         <div class="project project1">
@@ -169,10 +186,7 @@
             <div class="flow-content">
               <h3>Edie Homepage</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae nihil dolor eius architecto distinctio ducimus. A
-                dolor eum cum corrupti, nulla deserunt. Provident non doloribus
-                necessitatibus impedit nesciunt repellendus perferendis.
+                Homepage is a popular task that a developer has to do. In this challenge, you will work with Edie - a small team providing web services. 
               </p>
               <p>See the project -></p>
             </div>
@@ -189,10 +203,7 @@
             <div class="flow-content">
               <h3>Checkout Page</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-                corporis asperiores iste beatae sunt sint reiciendis sit
-                repellendus impedit quo delectus nostrum accusamus facilis
-                maiores qui tempora, repellat culpa dolores.
+                In this challenge, I worked with the form in a modern and minimal design. The challenge bring HTML and CSS to a new level. 
               </p>
               <p>See the project -></p>
             </div>
@@ -209,10 +220,7 @@
             <div class="flow-content">
               <h3>My Gallery</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Tenetur facere harum laudantium perspiciatis, porro delectus
-                esse eligendi velit. Rem enim soluta libero, et vel earum
-                corrupti ipsa eius fuga odit!
+                Inspired by instagram, in this challenge I worked with a similar design to instagram profile page.
               </p>
               <p>See the project -></p>
             </div>
@@ -229,10 +237,7 @@
             <div class="flow-content">
               <h3>Recipe Page</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                officia, ex aut ratione non similique harum iste porro ea
-                laboriosam! Rerum maxime repellendus deserunt modi laborum,
-                suscipit placeat sint iusto!
+                Everyone loves food, especially cheesecake. In this challenge, I worked with a recipe.
               </p>
               <p>See the project -></p>
             </div>
@@ -249,10 +254,7 @@
             <div class="flow-content">
               <h3>Interior Consultant</h3>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
-                nisi! Expedita facilis fugiat nemo, quae sit consequuntur ab
-                quaerat eligendi illo officia ratione neque tempore delectus
-                commodi aut error atque.
+                In this challenge I created a simple interior consultant homepage. This challenge tested my skill in styling navigation and positioning.
               </p>
               <p>See the project -></p>
             </div>
@@ -269,10 +271,7 @@
             <div class="flow-content">
               <h3>My Team Page</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam
-                quis labore reprehenderit itaque animi blanditiis, deleniti
-                saepe ea at veniam debitis quod inventore assumenda laborum quos
-                soluta illo aliquid dolores.
+                This challenge tested my basic CSS skills and get it to next level. I worked with basic HTML element to make a simple but yet elegant team page.
               </p>
               <p>See the project -></p>
             </div>
@@ -280,7 +279,7 @@
         </div>
       </div>
     </section>
-    <section class="hobbies flow-content">
+    <section class="hobbies flow-content" id="hobbies">
       <h2>Hobbies</h2>
       <div class="hobbies-ctn flow-content-y flow-content-x">
         <div class="hobbie flow-content">
