@@ -52,25 +52,6 @@ section {
   }
 }
 
-.skills,
-.certificates {
-  margin: 1rem;
-}
-
-.certificates {
-  text-align: center;
-}
-
-@media (min-width: 55em) {
-  .section-ctn {
-    display: flex;
-  }
-  .skills,
-  .certificates {
-    width: 50%;
-  }
-}
-
 h1,
 h2,
 h3,
@@ -147,9 +128,28 @@ img {
   }
 }
 
+.skills,
+.certificates {
+  margin: 1rem;
+}
+
+@media (min-width: 55em) {
+  .section-ctn {
+    display: flex;
+  }
+  .skills,
+  .certificates {
+    width: 50%;
+  }
+}
+
 .skills-ctn {
   display: flex;
   justify-content: space-between;
+}
+
+.certificates {
+  text-align: center;
 }
 
 .custom {
@@ -224,6 +224,7 @@ img {
 @media (min-width: 55em) {
   .hobbies-ctn {
     display: flex;
+    justify-content: space-evenly;
   }
 
   .hobbies img {
